@@ -79,3 +79,13 @@ nav {
 .box2-ext {
   background-color: #0000FF;
 }
+
+.swiper {
+  width: 1000px;
+  height: 700px;
+}
+
+:root {
+  --swiper-navigation-color: #ffffff;
+  --swiper-pagination-color: #ffffff;
+}

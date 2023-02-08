@@ -1,0 +1,30 @@
+<h1 class="this">Swiper導入</h1>
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <%= image_tag "nature-1" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "nature-2" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "nature-3" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "nature-4" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "nature-5" %>
+    </div>
+  </div>
+  <!-- ページネーションの要素 -->
+  <div class="swiper-pagination"></div>
+  <!-- ナビゲーションボタン （前、次） -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-scrollbar"></div>
+</div>
+
+
+<%= javascript_pack_tag 'swiper.js', 'data-turbolinks-track': 'reload' %>
