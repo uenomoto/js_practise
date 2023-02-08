@@ -1,5 +1,6 @@
 <header>
   <nav>
+    <!--PCサイズで見えるメニュー-->
     <ul  class="nav-list">
       <h1  class="logo"><%= link_to "JS-practice", root_path, data: {"turbolinks" => false} %></h1>
       <li  class="nav-list-item"><%= link_to "じゃんけんしよう", rock_paper_scissors_path, data: {"turbolinks" => false} %></li>
@@ -9,4 +10,23 @@
       <li  class="nav-list-item"><%= link_to "back_to_top", back_to_top_path %></li>
     </ul>
   </nav>
+
+  <nav class="hm-menu">
+    <!--スマホサイズで見えるメニュー-->
+    <ul>
+      <li  class="nav-list-item2"><%= link_to "じゃんけんしよう", rock_paper_scissors_path, data: {"turbolinks" => false} %></li>
+      <li  class="nav-list-item2"><%= link_to "this", this_path, data: {"turbolinks" => false} %></li>
+      <li  class="nav-list-item2"><%= link_to "children", children_path, data: {"turbolinks" => false} %></li>
+      <li  class="nav-list-item2"><%= link_to "swiper", swiper_path %></li>
+      <li  class="nav-list-item2"><%= link_to "back_to_top", back_to_top_path %></li>
+    </ul>
+  </nav>
+  <!--ハンバーガーアイコン　これ→三-->
+  <div id="hm-icon">
+      <a class="menu-trigger" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
 </header>
