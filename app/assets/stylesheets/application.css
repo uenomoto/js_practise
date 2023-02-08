@@ -64,10 +64,10 @@ nav {
   margin: 50px auto;
 }
 
-.container {
+.container-index {
   display: flex;
 }
-.container p {
+.container-index p {
   color: #FFFFFF;
 }
 

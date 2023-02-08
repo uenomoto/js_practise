@@ -1,0 +1,38 @@
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+.box3 {
+  background-color: #FFFFFF;
+  height: 200px;
+  width: 200px;
+}
+
+.bg1 {
+  background-color: #FFAAAA;
+}
+
+.bg2 {
+  background-color: #FFBBBB;
+}
+
+.bg3 {
+  background-color: #FFCCCC;
+}
+
+.bg4 {
+  background-color: #FFDDDD;
+}
+
+.this {
+  font-size: 50px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.children_container {
+  text-align: center;
+}
+.children_container li {
+  margin: 5px 0;
+}
