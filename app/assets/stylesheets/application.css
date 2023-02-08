@@ -52,9 +52,30 @@ nav {
 }
 
 .box1 {
-  display: none;
   background-color: #FF0000;
   height: 200px;
   width: 200px;
   margin: 50px auto;
+}
+.box2 {
+  background-color: #FF0000;
+  height: 200px;
+  width: 200px;
+  margin: 50px auto;
+}
+
+.container {
+  display: flex;
+}
+.container p {
+  color: #FFFFFF;
+}
+
+/*JS*/
+.box1-ext {
+  border: 10px solid black;
+}
+
+.box2-ext {
+  background-color: #0000FF;
 }
