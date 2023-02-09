@@ -8,8 +8,11 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
+import "packs/hamburger.js"
 import 'jquery'
 import "script.js"
+import Swiper from 'swiper/swiper-bundle.js';  //この行を追記
+import 'swiper/swiper-bundle.css';　　　　　　　　　　　　　　　　　　　　　　　　　　//この行を追記
 
 Rails.start()
 Turbolinks.start()
